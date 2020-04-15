@@ -1,0 +1,85 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#kepala{
+	background: orange;
+	width: 100%;
+	height: 100px;
+}
+
+#kepala h1{
+
+	color: white;
+	text-align: center;
+	padding: 25px;
+}
+#menu{
+	
+	width: 100%;
+	height: 50px;
+}
+
+#menu ul{
+	margin: 0;
+	padding: 0;
+	background:#d63031;
+	overflow: hidden;
+	list-style-type: none;
+}
+#menu ul li{
+	float: left;
+}
+
+#menu ul li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 15px;
+	text-decoration: none;
+}
+
+#menu ul li a:hover{
+	background: #3498db;
+}
+
+#bungkus{
+	width: 100%;
+	height: 1200px;
+}
+
+.konten{
+	width: 70%;
+	height: 1200px;
+	float: left;
+
+}
+.side{
+	width: 30%;
+	height: 1200px;
+	float: left;
+	background: #ecf0f1;
+
+}
+.spasi{
+	
+	padding: 30px;
+}
+.spasi h2,p{
+	text-align: center;
+}
+
+#footer{
+	width: 100%;
+	height: 50;
+	background: #d63031;
+}
+
+#footer marquee{
+
+	color: white;
+	padding: 20px;
+}
+#paragraf{
+	text-align: left;
+}
